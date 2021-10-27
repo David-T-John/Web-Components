@@ -1,11 +1,21 @@
 const template = document.createElement('template');
 template.innerHTML = `
     <style> 
+        *{
+            margin: 0 auto;
+            padding: 0;
+        }
+        body{
+            margin: 0;
+        }
         nav{
             display: flex;
             flex-direction: row;
             align-items: center;
             justify-content: space-between;
+            background: linear-gradient(160deg, #c3c3c3, #ccc);
+            padding: 0vh 10vw;
+            min-height: 70px;
         }
         h1{
             color: blueviolet;
