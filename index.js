@@ -14,7 +14,7 @@ template.innerHTML = `
             align-items: center;
             justify-content: space-between;
             background: linear-gradient(160deg, #c3c3c3, #ccc);
-            padding: 0vh 10vw;
+            padding: 0vh 5vw;
             min-height: 70px;
         }
         h1{
